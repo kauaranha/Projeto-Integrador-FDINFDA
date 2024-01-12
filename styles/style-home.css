@@ -1,0 +1,308 @@
+nav{
+	margin:10px 10px 0px 10px;
+	background-color:#483D8B;
+    border-radius: 10px;
+
+   }
+
+nav ul{
+		margin:0px; 
+		list-style-type: none;
+		padding:15px 0px 15px 0px;
+       
+	  }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+nav ul li{
+		   display:inline;
+		   padding:5px 10px 5px 10px;
+           
+		 }
+#header-cabecalho{
+    text-align: center;
+    background-color: #483D8B;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 10px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-button{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: background-color 0.3s ease;
+  }
+
+#telefone{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#horarios{
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    margin-left: 20px;
+  }
+  
+  button:hover {
+    transform: scale(0.96);
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  #txtBusca{
+    float:left;
+    background-color: white;
+    padding-left:5px;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:226px;
+  }
+  
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+  
+  #divBusca{
+    border:solid 5px rgb(255, 255, 255);
+    border-radius:8px;
+    height:37px;
+  }
+
+  #logotipo{
+    mix-blend-mode: multiply;
+   
+  }
+
+  #servicos-prestados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2em;
+    
+}
+
+.servicos {
+    border: 1px solid #483D8B;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+    width: 300px;
+    text-align: center;
+    background-color: #483D8B;
+    color: white;
+}
+
+footer {
+    background-color: #483D8B;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-right: 10px
+}
+
+.servicos h2{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.servicos p{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#servicos-prestados h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#section-servicos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in;
+  color: #483D8B;
+}
+
+#section-servicos:hover{
+    transform: scale(0.96);
+}
+
+#section-eletronicos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 0.5em;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in;
+}
+
+.card {
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 20px;
+  background-color: #fff;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.card-description {
+  color: #555;
+  line-height: 1.4;
+}
+
+.card-price {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+  margin-top: 10px;
+}
+
+.card-content h1 {
+  margin-top: 5px;
+  background-color: white;
+  color: #483D8B;
+  /* text-decoration: none; */
+  font-family: Arial, Helvetica, sans-serif;
+  transition: all 200ms ease-in;
+  position: absolute;
+}
+
+.card-content h1:hover {
+  border: 1px solid #483D8B;
+  background-color: #483D8B;
+  color: white;
+  position: absolute;
+  border-radius: 10px;
+  cursor: pointer;
+  transform: scale(0.96);
+}
+
+#esquenta{
+  color: red;
+}
+
+.service {
+  display: inline-block;
+  width: 200px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.service-description {
+  color: #555;
+  line-height: 1.4;
+}
+
+.card button{
+    border: 1px solid blue;
+    margin: 10px 0px 10px;
+    background-color: #483D8B;
+    color: white;
+}
+
+#login{
+  text-decoration: none;
+  border: 2px solid #483D8B;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 20px;
+  padding: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: white;
+}
+
+#footer-pagina{
+  text-align: center;
+  background-color: #483D8B;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 10px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  align-items: center;
+}
+
+#footer-pagina h1{
+  font-size: 20px;
+}
+
+#footer-pagina a{
+  text-decoration: none;
+}
+#footer-pagina ul{
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+ 
+

@@ -1,0 +1,254 @@
+nav{
+	margin:10px 10px 0px 10px;
+	background-color:#483D8B;
+    border-radius: 10px;
+
+   }
+
+nav ul{
+		margin:0px; 
+		list-style-type: none;
+		padding:15px 0px 15px 0px;
+       
+	  }
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+nav ul li{
+		   display:inline;
+		   padding:5px 10px 5px 10px;
+           
+		 }
+#header-cabecalho{
+    text-align: center;
+    background-color: #483D8B;
+    color: white;
+    padding: 1rem 0;
+    border-radius: 10px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header-button{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 0 20px;
+    transition: background-color 0.3s ease;
+  }
+
+#telefone{
+    font-size: 15px;
+    border-radius: 10px;
+    padding: 40px;
+}
+
+#horarios{
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    margin-left: 20px;
+  }
+  
+  button:hover {
+    transform: scale(0.96);
+  }
+  
+  button[type="submit"] {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    margin: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+  #txtBusca{
+    float:left;
+    background-color: white;
+    padding-left:5px;
+    font-size:15px;
+    border:none;
+    height:32px;
+    width:226px;
+  }
+  
+  #btnBusca{
+    float:left;
+    cursor:pointer;
+  }
+  
+  #divBusca img{
+    float:left;
+  }
+  
+  #divBusca{
+    border:solid 5px rgb(255, 255, 255);
+    border-radius:8px;
+    height:37px;
+  }
+
+  #section-servicos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    transition: all 200ms ease-in;
+    color: #483D8B;
+  }
+  
+  #section-servicos:hover{
+      transform: scale(0.96);
+  }
+
+  .cart-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  
+  
+  .cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+  }
+  
+  .cart-item img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 4px;
+  }
+  
+  .cart-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .total P{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+  }
+
+  .item-details h2{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .item-details p{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .item-details {
+    flex: 1;
+  }
+  
+  .price {
+    font-weight: bold;
+    color: #e44d26;
+  }
+  
+  .remove-btn {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .checkout-btn {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 20px;
+    margin: 5px
+  }
+  
+  .checkout-btn:hover,
+  .remove-btn:hover {
+    background-color: #333;
+  }
+
+
+  #login{
+    text-decoration: none;
+    border: 2px solid #483D8B;
+    text-align: center;
+    color: white;
+    background-color: #483D8B;
+    border-radius: 5px;
+  }
+
+  
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background-color: #333;
+  color: white;
+}
+
+#footer-pagina{
+  text-align: center;
+  background-color: #483D8B;
+  color: white;
+  padding: 1rem 0;
+  border-radius: 10px;
+  height: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+  align-items: center;
+}
+
+#footer-pagina h1{
+  font-size: 20px;
+}
+
+#footer-pagina a{
+  text-decoration: none;
+}
+#footer-pagina ul{
+  align-items: center;
+}
+
+#login{
+  text-decoration: none;
+  border: 2px solid #483D8B;
+  text-align: center;
+  color: white;
+  background-color: red;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 20px;
+  padding: 5px;
+}
+
+
+
